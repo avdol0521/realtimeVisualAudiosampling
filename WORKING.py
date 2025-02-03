@@ -207,9 +207,9 @@ while True:
                 player.set_frequency(frequency_value)
                 player.set_speed(speed_value)
             drawSkibidi(circle_points1)
-            drawSkibidi(circle_edge(degrees, index_x, index_y, radius2))
+            # drawSkibidi(circle_edge(degrees, index_x, index_y, radius2))
             drawSkibidi(circle_points2)
-            drawSkibidi(circle_edge(degrees, thumb_x, thumb_y, radius2))
+            # drawSkibidi(circle_edge(degrees, thumb_x, thumb_y, radius2))
 
             if len(hands_info) >= 1:  # Ensure at least one hand is detected
                 player.set_frequency(frequency_value)
